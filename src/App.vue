@@ -39,7 +39,7 @@ export default {
   width: 100vw;
   height: 100vh;
   grid-template-columns: 150px auto 150px;
-  grid-template-rows: 100px 1fr 50px;
+  grid-template-rows: 100px 1fr 100px;
   grid-gap: 10px;
 }
 .main-container > * {
