@@ -5,6 +5,7 @@
     <div class="main-container">
       <Header/>
       <Main />
+      <Main />
       <Footer />
     </div>
 
@@ -38,9 +39,9 @@ export default {
 
 .main-container{
   display: grid;
-  
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 .main-container > * {
   border: 1px dashed grey;

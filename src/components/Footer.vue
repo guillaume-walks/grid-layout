@@ -8,7 +8,9 @@
   }
   </script>
   <style>
-  
+  .footer{
+    grid-column: 1/4;
+  }
   </style>
   
   
