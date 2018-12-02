@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-
     <div class="main-container">
       <Header/>
       <Main />
@@ -34,13 +32,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 .main-container{
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 1fr 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 150px auto auto;
+  grid-template-rows: 100px 1fr 50px;
   grid-gap: 10px;
 }
 .main-container > * {
