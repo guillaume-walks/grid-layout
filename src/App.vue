@@ -2,7 +2,7 @@
   <div id="app">
     <div class="main-container">
       <Header/>
-      <Main />
+    
       <Main />
       <Footer />
     </div>
@@ -38,7 +38,7 @@ export default {
   display: grid;
   width: 100vw;
   height: 100vh;
-  grid-template-columns: 150px auto auto;
+  grid-template-columns: 150px auto 150px;
   grid-template-rows: 100px 1fr 50px;
   grid-gap: 10px;
 }
