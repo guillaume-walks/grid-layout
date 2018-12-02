@@ -1,5 +1,7 @@
 # grid-layout
 
+(view demo)[https://guillaume-walks.github.io/grid-layout/dist/]
+
 ## Project setup
 ```
 npm install
