@@ -45,4 +45,10 @@ export default {
 .main-container > * {
   border: 1px dashed grey;
 }
+
+@media screen and (max-width: 750px) {
+  .main-container{
+    grid-template-columns: 0 auto 0;
+  }
+}
 </style>
