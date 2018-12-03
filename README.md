@@ -1,6 +1,5 @@
 # grid-layout
-
-(view demo)[https://guillaume-walks.github.io/grid-layout/dist/]
+[demo](https://guillaume-walks.github.io/grid-layout/)
 
 ## Project setup
 ```
