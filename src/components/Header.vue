@@ -1,6 +1,6 @@
   <template>
   <div class="header">
-    <h1>header gh-pages test</h1>
+    <h1>header gh-pages, publish task</h1>
     <!-- <ul>
               <li>one</li>
               <li>two</li>
